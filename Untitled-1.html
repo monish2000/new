@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<style>
+		label {
+			color: #1E90FF; /* Set label color to blue */
+		}
+		
+		input[type="submit"] {
+			color: #FFFFFF; /* Set submit button text color to white */
+			background-color: #1E90FF; /* Set submit button background color to blue */
+			border: none; /* Remove submit button border */
+			padding: 10px 20px; /* Add padding to submit button */
+			cursor: pointer; /* Change cursor to pointer on hover */
+		}
+		
+		form {
+			margin: auto; /* Center the form horizontally */
+			padding: 20px; /* Add padding to the form */
+			border: 1px solid #1E90FF; /* Add border to the form */
+			background-color: #F5F5F5; /* Add background color to the form */
+			max-width: 400px; /* Set maximum width of the form */
+		}
+	</style>
+</head>
+<body>
+	<form action="#" method="post">
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="username" placeholder="Enter your username" required><br><br>
+		
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+		
+		<input type="submit" value="Login">
+	</form>
+</body>
+</html>
